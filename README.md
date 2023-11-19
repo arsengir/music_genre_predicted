@@ -26,3 +26,10 @@
 `obtained_date` - дата загрузки в сервис  
 `valence` - привлекательность произведения для пользователей сервиса  
 `music_genre` - музыкальный жанр  
+
+Будем проводить обучение на 3 моделях: 
+* `LogisticRegression`
+* `RandomForestClassifier`
+* `CatBoostClassifier`
+
+При обучении использовали pipeline и подбор гиперпараметров с GridSearchCV
